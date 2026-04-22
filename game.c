@@ -13,7 +13,7 @@
 #include <stdbool.h>
 #include <unistd.h>
 
-//place function prototypes here
+void mnFun(void);
 
 
 
@@ -159,6 +159,8 @@ int main(int argc, char *argv[])
 			}
 			case 25:
 			{
+
+				mnFun(); 
 				puts("room25");
 				break;
 			}
@@ -422,4 +424,11 @@ int main(int argc, char *argv[])
 	return EXIT_SUCCESS;
 }
 
-//place functions here
+
+
+void mnFun(void)
+{
+	puts("MNroom32");
+}
+
+
