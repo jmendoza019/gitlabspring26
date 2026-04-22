@@ -1,6 +1,6 @@
 //Contributors
 //GP
-//
+//LS
 //
 
 
@@ -14,7 +14,7 @@
 #include <unistd.h>
 
 //place function prototypes here
-
+   void ls(void);
 
 
 
@@ -228,7 +228,8 @@ int main(int argc, char *argv[])
 				break;
 			}
 			case 40:
-			{
+			{      
+                                ls();
 				puts("room40");
 				break;
 			}
@@ -423,3 +424,8 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+void ls(void)
+{
+	printf("LS\n");
+       
+}
