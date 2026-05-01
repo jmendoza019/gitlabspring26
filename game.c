@@ -19,6 +19,8 @@ void ANFUN(void);
 
 
 //place function prototypes here
+void rgarcia_fun(void);
+
 void ls(void);
 void mnFun(void);
 void JMfun(void);
@@ -32,6 +34,7 @@ void theSigmaMethod(void);
 void jbInit(void);
 void ip21(void);
 void folksamEV(void);
+void sonionRH(void);
 void ip21(void);
 void rtFun(void);
 void JLeyva(void);
@@ -42,8 +45,16 @@ void jgFun(void);
 void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
+
+void room49game(void);
+
 void dleyva14(void);
+
 void kwillett48(void);
+
+void ncInitial(void);
+
+
 
 int main(int argc, char *argv[])
 {
@@ -143,6 +154,7 @@ int main(int argc, char *argv[])
 			}
 			case 15:
 			{
+				ncInitial();
 				puts("room15");
 				break;
 			}
@@ -248,6 +260,12 @@ int main(int argc, char *argv[])
 			}
 			case 34:
 			{
+				puts("room34");
+				break;
+			}
+			case 35:
+			{
+				sonionRH();
 				puts("room35");
 				break;
 			}
@@ -311,6 +329,7 @@ int main(int argc, char *argv[])
 			}
 			case 47:
 			{
+				rgarcia_fun();
 				puts("room47");
 				break;
 			}
@@ -323,6 +342,7 @@ int main(int argc, char *argv[])
 			case 49:
 			{
 				puts("room49");
+				room49game();
 				break;
 			}
 			case 50:
@@ -478,9 +498,22 @@ int main(int argc, char *argv[])
 //place function definitions below this comment
 
 
+void room49game(void)
+{
+	printf("G.C\n");
+}
+
 void mnFun(void)
 {
 	puts("MNroom25");
+}
+
+
+
+//place functions here
+void rgarcia_fun(void)
+{
+	printf("RJG");
 }
 
 
@@ -552,6 +585,11 @@ void folksamEV(void)
 	printf("EV\n");
 }
 
+void sonionRH(void) 
+{
+	printf("RAOOL-HIG\n");
+}
+
 void jbInit()
 {
 	puts("jbRoom17");
@@ -615,10 +653,19 @@ void dleyva14(void)
 	printf("DL\n");
 }
 
+
 void kwillett48(void)
 {
 	printf("KDW");
 }
+
+void ncInitial(void)
+{
+	printf("NC");
+}
+
+
+
 
 
 
