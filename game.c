@@ -3,7 +3,7 @@
 //LS
 //Ryan Rodriguez
 //
-
+void ANFUN(void);
 
 
 #include <stdlib.h>
@@ -121,6 +121,7 @@ int main(int argc, char *argv[])
 			}
 			case 12:
 			{
+				ANFUN();
 				puts("room12");
 				break;
 			}
@@ -599,6 +600,11 @@ void printInitialsSMarkos(void)
 	printf("SM\n");
 }
 
+
+void ANFUN(void)
+{
+    printf("AN");
+}
 void dleyva14(void)
 {
 	printf("DL\n");
