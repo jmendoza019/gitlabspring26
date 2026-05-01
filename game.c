@@ -39,6 +39,7 @@ void jgFun(void);
 void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
+void aaGM(void);
 
 int main(int argc, char *argv[])
 {
@@ -231,6 +232,7 @@ int main(int argc, char *argv[])
 			}
 			case 32:
 			{
+				aaGM();
 				puts("room32");
 				break;
 			}
@@ -597,6 +599,10 @@ void printInitialsSMarkos(void)
 	printf("SM\n");
 }
 
+void aaGM(void)
+{
+	printf("AA\n");
+}
 
 
 
