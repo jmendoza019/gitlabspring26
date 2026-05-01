@@ -16,7 +16,6 @@
 
 
 //place function prototypes here
-void thanos1v9(void);
 void ls(void);
 void mnFun(void);
 void JMfun(void);
@@ -41,6 +40,7 @@ void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
 void dleyva14(void);
+void afFun(void);  
 
 int main(int argc, char *argv[])
 {
@@ -332,7 +332,7 @@ int main(int argc, char *argv[])
 			}
 			case 52:
 			{
-				thanos1v9();
+				afFun();
 				puts("room52");
 				break;
 			}
@@ -473,7 +473,7 @@ int main(int argc, char *argv[])
 
 //place function definitions below this comment
 
-void thanos1v9(void)
+void afFun(void)
 { 
 	puts("AFroom52");
 }
