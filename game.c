@@ -58,7 +58,7 @@ void printdAfeworkIntials(void);
 void kwillett48(void);
 
 void ncInitial(void);
-
+void mtorres(void);
 
 
 int main(int argc, char *argv[])
@@ -288,6 +288,7 @@ int main(int argc, char *argv[])
 			}
 			case 38:
 			{
+				mtorres();
 				puts("room38");
 				break;
 			}
@@ -681,6 +682,10 @@ void ncInitial(void)
 	printf("NC");
 }
 
+void mtorres(void)
+{
+	printf("MT");
+}
 
 
 
