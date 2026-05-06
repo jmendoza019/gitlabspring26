@@ -2,13 +2,15 @@
 //GP+
 //LS
 //Ryan Rodriguez
+//Anthony Farris
 //Charles Parker
 //Kristopher Willett
 //
 //
 //
 
-void ANFUN(void);
+
+
 
 
 #include <stdlib.h>
@@ -21,10 +23,12 @@ void ANFUN(void);
 
 
 //place function prototypes here
+void khprinter(void);
 
+void ANFUN(void);
+void dcFunc(void);
 void cparkerFun(void);
 void rgarcia_fun(void);
-
 void ls(void);
 void mnFun(void);
 void JMfun(void);
@@ -54,10 +58,17 @@ void room49game(void);
 void dleyva14(void);
 
 void sgarcia6(void);
+void AMaderaFun(void);
+void CAYfrog(void);
+void afFun(void);  
+void jmItsGoTime(void);
 void stanPush(void);
 void printdAfeworkIntials(void);
 void kwillett48(void);
 void ncInitial(void);
+void mtorres(void);
+void hOsuna(void);
+
 
 int main(int argc, char *argv[])
 {
@@ -95,6 +106,7 @@ int main(int argc, char *argv[])
 			}
 			case 4:
 			{
+				CAYfrog();
 				puts("room4");
 				break;
 			}
@@ -181,11 +193,13 @@ int main(int argc, char *argv[])
 			}
 			case 19:
 			{
+				dcFunc();
 				puts("room19");
 				break;
 			}
 			case 20:
 			{
+				AMaderaFun();
 				puts("room20");
 				break;
 			}
@@ -288,6 +302,7 @@ int main(int argc, char *argv[])
 			}
 			case 38:
 			{
+				mtorres();
 				puts("room38");
 				break;
 			}
@@ -321,6 +336,7 @@ int main(int argc, char *argv[])
 			}
 			case 44:
 			{
+				khprinter();
 				puts("room44");
 				break;
 			}
@@ -365,6 +381,7 @@ int main(int argc, char *argv[])
 			}
 			case 52:
 			{
+				afFun();
 				puts("room52");
 				break;
 			}
@@ -380,6 +397,7 @@ int main(int argc, char *argv[])
 			}
 			case 55:
 			{
+				jmItsGoTime();
 				puts("room55");
 				break;
 			}
@@ -451,6 +469,7 @@ int main(int argc, char *argv[])
 			case 68:
 			{
                                 puts("room68");
+				hOsuna();
                                 break;
 			}
 			case 69:
@@ -506,9 +525,20 @@ int main(int argc, char *argv[])
 //place function definitions below this comment
 
 
+void afFun(void)
+{ 
+	puts("AFroom52");
+}
+void dcFunc(void)
+{
+    printf("DCroom19\n");
+}
+
+
 void room49game(void)
 {
 	printf("G.C\n");
+
 }
 
 void mnFun(void)
@@ -529,6 +559,10 @@ void rgarcia_fun(void)
 	printf("RJG");
 }
 
+void AMaderaFun(void)
+{
+	printf("AMadera\n");
+}
 
 
 void ls(void)
@@ -560,7 +594,10 @@ void jsl(void)
 	printf("JSL\n");
 }
 
-
+void khprinter(void)
+{
+	printf("KDH");
+}
 
 
 void PogoAM(void)
@@ -675,6 +712,15 @@ void sgarcia6(void)
    {
        printf("SG");
    }
+void CAYfrog(void)
+{
+	printf("CAY");
+}
+
+void jmItsGoTime(void)
+{
+	printf("JM\n");
+}
 void printdAfeworkIntials(void)
 {
 	puts("DA");
@@ -684,11 +730,23 @@ void printdAfeworkIntials(void)
 void kwillett48(void)
 {
 	printf("KDW");
+
 }
 
 void ncInitial(void)
 {
 	printf("NC");
+}
+
+void mtorres(void)
+{
+	printf("MT");
+}
+
+
+void hOsuna(void)
+{
+        printf("\nHAO\n");
 }
 
 
@@ -697,4 +755,5 @@ void stanPush(void)
 {
 	puts(" S J \n");
 }
+
 
